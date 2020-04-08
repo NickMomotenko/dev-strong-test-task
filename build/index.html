@@ -1,482 +1,1108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-
-  <div class="wrapper">
-    <header class="header">
-      <div class="container">
-        <nav class="header__menu menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Доставка</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Оплата</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Возврат</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Оптовым покупателям</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header__info">
-          бесплатно по России
-        </div>
-        <div class="phone">
-          <a href="#" class="phone__number">8-800-000-00-00</a>
-        </div>
-      </div>
-    </header>
-    <div class="main">
-      <div class="container">
-        <div class="top-bar">
-          <div class="top-bar__content">
-            <div class="logo">
-              <a href="#" class="logo__link">LOGOtype</a>
-            </div>
-            <div class="top-bar__input">
-              <input type="text" class="input">
-            </div>
-            <div class="top-bar__options-list options-list">
-              <ul class="options-list__bar">
-                <li class="options-list__item">
-                  <a href="#" class="options-list__link">1</a>
-                </li>
-                <li class="options-list__item">
-                  <a href="#" class="options-list__link">2</a>
-                </li>
-                <li class="options-list__item">
-                  <a href="#" class="options-list__link">3</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <nav class="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">Каталог товаров</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">о компании</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">акции</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">новости</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">блог</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">эксперты</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <section class="bestsellers">
-          <div class="bestsellers__content content-list">
-            <div class="content-list__bar">
-              <div class="content-list__bar-wrapp">
-                <div class="content-list__title title">
-                  Хит продаж 
-                </div>
-                <div class="content-list__subtitle">
-                  Весь каталог 
-                </div>
-              </div>
-              <div class="content-list__bar-option bar-option">
-                <a href="#" class="bar-option__link">></a>
-                <a href="#" class="bar-option__link">></a>
-              </div>
-            </div>
-            <ul class="content-list__options">
-              <li class="content-list__item">
-                <div class="content-list__item-picture">
-                  <img src="" alt="" class="content-list__item-picture-icon">
-                </div>
-                <div class="content-list__item-info">
-                  <div class="content-list__item-row">
-                    <div class="content-list__item-stars stars">
-                      <ul class="stars__list">
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="content-list__item-like">
-                      <a href="#" class="content-list__item-like-btn"></a>
-                    </div>
-                  </div>
-                  <div class="content-list__item-category">
-                    Удилище
-                  </div>
-                  <div class="content-list__item-name">
-                    Matze Koch Rollen
-                  </div>
-                  <div class="content-list__item-price price">
-                    <div class="price__value">13490</div>
-                    <div class="price__currency">р</div>
-                  </div>
-                  <div class="content-list__item-button">
-                    <button class="button">В корзину</button>
-                  </div>
-                </div>
-                <div class="content-list__label label">
-                  <div class="label__hit">Хит</div>
-                  <div class="label__discount">Скидка</div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Доставка</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Оплата</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Возврат</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Оптовым покупателям</a>
               </li>
             </ul>
+          </nav>
+          <div class="header__info">
+            бесплатно по России
           </div>
-        </section>
-        <section class="new-items">
-          <div class="new-items__content content-list">
-            <div class="content-list__bar">
-              <div class="content-list__bar-wrapp">
-                <div class="content-list__title title">
-                  Новинки 
-                </div>
-                <div class="content-list__subtitle">
-                  Весь каталог 
-                </div>
-              </div>
-              <div class="content-list__bar-option bar-option">
-                <a href="#" class="bar-option__link">></a>
-                <a href="#" class="bar-option__link">></a>
-              </div>
-            </div>
-            <ul class="content-list__options">
-              <li class="content-list__item">
-                <div class="content-list__item-picture">
-                  <img src="" alt="" class="content-list__item-picture-icon">
-                </div>
-                <div class="content-list__item-info">
-                  <div class="content-list__item-row">
-                    <div class="content-list__item-stars stars">
-                      <ul class="stars__list">
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                        <li class="stars__item">
-                          <a href="#" class="stars__link"></a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="content-list__item-like">
-                      <a href="#" class="content-list__item-like-btn"></a>
-                    </div>
-                  </div>
-                  <div class="content-list__item-category">
-                    Удилище
-                  </div>
-                  <div class="content-list__item-name">
-                    Matze Koch Rollen
-                  </div>
-                  <div class="content-list__item-price price">
-                    <div class="price__value">13490</div>
-                    <div class="price__currency">р</div>
-                  </div>
-                  <div class="content-list__item-button">
-                    <button class="button">В корзину</button>
-                  </div>
-                </div>
-                <div class="content-list__label label">
-                  <div class="label__hit">Хит</div>
-                  <div class="label__discount">Скидка</div>
-                </div>
-              </li>
-            </ul>
+          <div class="phone">
+            <a href="#" class="phone__number">8-800-000-00-00</a>
           </div>
-        </section>
-        <section class="last-news">
-          <div class="last-news__content content-list">
-            <div class="content-list__bar">
-              <div class="content-list__bar-wrapp">
-                <div class="content-list__title title">
-                  Последние новости
-                </div>
-                <div class="content-list__subtitle">
-                  Все новости 
-                </div>
-              </div>
-              <div class="content-list__bar-option bar-option">
-                <a href="#" c lass="bar-option__link">></a>
-                <a href="#" class="bar-option__link">></a>
-              </div>
-            </div>
-            <ul class="content-list__options">
-              <li class="content-list__item">
-                <div class="content-list__item-picture">
-                  <img src="" alt="" class="content-list__item-picture-icon">
-                </div>
-                <div class="content-list__item-info">
-                  <div class="content-list__item-category">
-                    Презентация нового продукта
-                  </div>
-                  <div class="content-list__item-text">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...
-                  </div>
-                  <div class="content-list__item-button">
-                    <button class="button">Подробнее</button>
-                  </div>
-                </div>
-                <div class="content-list__label label">
-                  <div class="label__date">13.02.2019</div>
-                </div>
-              </li>
-            </ul>
-            <div class="last-news__distribution distribution">
-              <div class="distribution__text">
-                Подпишитесь на рассылку и будьте в курсе новостей, акций, новинок
-              </div>
-              <div class="distribution__input">
-                <input type=" " class="input">
-              </div>
-              <div class="distribution__button">
-                <button class="button">Подписаться</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="about">
-          <div class="container">
-            <div class="about__content-list content-list">
-              <div class="content-list__title title">
-                О компании
-              </div> 
-              <div class="about__col">
-                <div class="about__text">текст</div>
-              </div>
-              <div class="about__col">
-                <div class="about__text">текст</div>
-              </div>
-            </div> 
-          </div>
-        </section>
-      </div> 
-    </div> 
-    <footer class="footer">
-      <div class="container">
-         <div class="footer__row">
-           <div class="footer__column">
+        </div>
+      </header>
+      <div class="main">
+        <div class="container">
+          <div class="top-bar">
+            <div class="top-bar__content">
               <div class="logo">
                 <a href="#" class="logo__link">LOGOtype</a>
               </div>
+              <div class="top-bar__input">
+                <input type="text" class="input" placeholder="Что Вы ищете?" />
+              </div>
+              <div class="top-bar__options-list options-list">
+                <ul class="options-list__bar">
+                  <li class="options-list__item">
+                    <a href="#" class="options-list__link">
+                      <img
+                        src="img/refer.png"
+                        alt="Icon"
+                        class="options-list__link-img"
+                      />
+                    </a>
+                  </li>
+                  <li class="options-list__item">
+                    <a href="#" class="options-list__link">
+                      <img
+                        src="img/heart-outline.png"
+                        alt="Icon"
+                        class="options-list__link-img"
+                      />
+                      <div class="options-list__counter">3</div>
+                    </a>
+                  </li>
+                  <li class="options-list__item">
+                    <a href="#" class="options-list__link">
+                      <img
+                        src="img/shopping-cart.png"
+                        alt="Icon"
+                        class="options-list__link-img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item navigation__item--main">
+                <a href="#" class="navigation__link">Каталог товаров</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">о компании</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">акции</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">новости</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">блог</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">эксперты</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <section class="post-main">
+            <sidebar class="sidebar">
+              <ul class="sidebar__list">
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+                <li class="sidebar__item">
+                  <a href="#" class="sidebar__link">Катушки</a>
+                </li>
+              </ul>
+            </sidebar>
+            <div class="post-main__content">
+              <div class="post-main__row"></div>
+              <div class="post-main__row">
+                <ul class="post-main__list">
+                  <li class="post-main__item post-main__item--main">
+                    <div class="post-main__item-info">
+                      <div class="post-main__item-title">
+                        Специальные <br />
+                        предложения
+                      </div>
+                      <div class="post-main__item-desc">
+                        для подледной ловли
+                      </div>
+                      <div class="post-main__item-price price">
+                        <div class="price__value">5600</div>
+                        <div class="price__currency">р.</div>
+                      </div>
+                      <div class="post-main__item-button">
+                        <button class="button">Купить</button>
+                      </div>
+                    </div>
+                    <div class="post-main__item-pic">
+                      <img
+                        src="img/main-item.png"
+                        alt="Icon"
+                        class="post-main__item-pic-icon"
+                      />
+                    </div>
+                    <div class="post-main__list-indicator">
+                      <div
+                        class="post-main__list-indicator-item post-main__list-indicator-item--active"
+                      >
+                        <a href="#" class="post-main__list-indicator-link"></a>
+                      </div>
+                      <div class="post-main__list-indicator-item">
+                        <a href="#" class="post-main__list-indicator-link"></a>
+                      </div>
+                      <div class="post-main__list-indicator-item">
+                        <a href="#" class="post-main__list-indicator-link"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="post-main__item">
+                    <div class="post-main__item-info">
+                      <div class="post-main__item-title">
+                        новые <br />
+                        приманки
+                      </div>
+                      <div class="post-main__item-desc">
+                        для подледной <br />
+                        ловли
+                      </div>
+                      <div class="post-main__item-bar-option bar-option">
+                        <a
+                          href="#"
+                          class="bar-option__link bar-option__link--next"
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="post-main__item-pic">
+                      <img
+                        src="img/rawbite.png"
+                        alt="Icon"
+                        class="post-main__item-pic-icon"
+                      />
+                    </div>
+                  </li>
+                  <li class="post-main__item">
+                    <div class="post-main__item-info">
+                      <div class="post-main__item-title">
+                        новые приманки
+                      </div>
+                      <div class="post-main__item-desc">
+                        для подледной ловли
+                      </div>
+                      <div class="post-main__item-bar-option bar-option">
+                        <a
+                          href="#"
+                          class="bar-option__link bar-option__link--next"
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="post-main__item-pic">
+                      <img
+                        src="img/rawbite.png"
+                        alt="Icon"
+                        class="post-main__item-pic-icon"
+                      />
+                    </div>
+                  </li>
+                  <li class="post-main__item">
+                    <div class="post-main__item-info">
+                      <div class="post-main__item-title">
+                        новые приманки
+                      </div>
+                      <div class="post-main__item-desc">
+                        для подледной ловли
+                      </div>
+                      <div class="post-main__item-bar-option bar-option">
+                        <a
+                          href="#"
+                          class="bar-option__link bar-option__link--next"
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="post-main__item-pic">
+                      <img
+                        src="img/rawbite.png"
+                        alt="Icon"
+                        class="post-main__item-pic-icon"
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="bestsellers">
+            <div class="bestsellers__content content-list">
+              <div class="content-list__bar">
+                <div class="content-list__bar-wrapp">
+                  <div class="content-list__title title">
+                    Хиты продаж
+                  </div>
+                  <a href="#" class="content-list__subtitle">
+                    Весь каталог
+                  </a>
+                </div>
+                <div class="content-list__bar-option bar-option">
+                  <a href="#" class="bar-option__link"></a>
+                  <a
+                    href="#"
+                    class="bar-option__link bar-option__link--next"
+                  ></a>
+                </div>
+              </div>
+              <ul class="content-list__options">
+                <li class="content-list__item content-list__item--other">
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-category">
+                      Бестселлер
+                    </div>
+                    <div class="content-list__item-name">
+                      катушка <br />
+                      Adrenalin <br />
+                      7300 BC
+                    </div>
+                    <div class="content-list__item-picture">
+                      <img
+                        src="img/item.png"
+                        alt="Item Picture"
+                        class="content-list__item-picture-icon"
+                      />
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">4 800</div>
+                      <div class="price__currency">р.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="content-list__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-row">
+                      <div class="content-list__item-stars stars">
+                        <ul class="stars__list">
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-list__item-like like">
+                        <a href="#" class="like__btn"></a>
+                      </div>
+                    </div>
+                    <div class="content-list__item-category">
+                      Удилище
+                    </div>
+                    <div class="content-list__item-name">
+                      Matze Koch Rollen
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">13490</div>
+                      <div class="price__currency">р.</div>
+                      <div class="price__old">
+                        <div class="price__value">6200</div>
+                        <div class="price__currency">р.</div>
+                      </div>
+                    </div>
+                    <div class="content-list__item-price-benefit">
+                      Ваш выгода 3 200 р.
+                    </div>
+                    <div class="content-list__item-button">
+                      <button class="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="content-list__label label label--hit">
+                    <div class="label__text">Хит</div>
+                  </div>
+                  <div class="content-list__label label label--discount">
+                    <div class="label__text">Скидка</div>
+                  </div>
+                </li>
+                <li class="content-list__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-row">
+                      <div class="content-list__item-stars stars">
+                        <ul class="stars__list">
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-list__item-like like">
+                        <a href="#" class="like__btn"></a>
+                      </div>
+                    </div>
+                    <div class="content-list__item-category">
+                      Удилище
+                    </div>
+                    <div class="content-list__item-name">
+                      Matze Koch Rollen
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">13490</div>
+                      <div class="price__currency">р</div>
+                    </div>
+                    <div class="content-list__item-button">
+                      <button class="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="content-list__label label label--hit">
+                    <div class="label__text">Хит</div>
+                  </div>
+                </li>
+                <li class="content-list__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-row">
+                      <div class="content-list__item-stars stars">
+                        <ul class="stars__list">
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-list__item-like like">
+                        <a href="#" class="like__btn"></a>
+                      </div>
+                    </div>
+                    <div class="content-list__item-category">
+                      Удилище
+                    </div>
+                    <div class="content-list__item-name">
+                      Matze Koch Rollen
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">13490</div>
+                      <div class="price__currency">р</div>
+                    </div>
+                    <div class="content-list__item-button">
+                      <button class="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="content-list__label label label--hit">
+                    <div class="label__text">Хит</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="new-items">
+            <div class="new-items__content content-list">
+              <div class="content-list__bar">
+                <div class="content-list__bar-wrapp">
+                  <div class="content-list__title title">
+                    Новинки
+                  </div>
+                  <a href="#" class="content-list__subtitle">
+                    Весь каталог
+                  </a>
+                </div>
+                <div class="content-list__bar-option bar-option">
+                  <a href="#" class="bar-option__link"></a>
+                  <a
+                    href="#"
+                    class="bar-option__link bar-option__link--next"
+                  ></a>
+                </div>
+              </div>
+              <ul class="content-list__options">
+                <li class="content-list__item content-list__item--other">
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-category">
+                      Бестселлер
+                    </div>
+                    <div class="content-list__item-name">
+                      катушка <br />
+                      Adrenalin <br />
+                      7300 BC
+                    </div>
+                    <div class="content-list__item-picture">
+                      <img
+                        src="img/item.png"
+                        alt="Item Picture"
+                        class="content-list__item-picture-icon"
+                      />
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">4 800</div>
+                      <div class="price__currency">р.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="content-list__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-row">
+                      <div class="content-list__item-stars stars">
+                        <ul class="stars__list">
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-list__item-like like">
+                        <a href="#" class="like__btn"></a>
+                      </div>
+                    </div>
+                    <div class="content-list__item-category">
+                      Удилище
+                    </div>
+                    <div class="content-list__item-name">
+                      Matze Koch Rollen
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">13490</div>
+                      <div class="price__currency">р.</div>
+                      <div class="price__old">
+                        <div class="price__value">6200</div>
+                        <div class="price__currency">р.</div>
+                      </div>
+                    </div>
+                    <div class="content-list__item-price-benefit">
+                      Ваш выгода 3 200 р.
+                    </div>
+                    <div class="content-list__item-button">
+                      <button class="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="content-list__label label label--hit">
+                    <div class="label__text">Хит</div>
+                  </div>
+                  <div class="content-list__label label label--discount">
+                    <div class="label__text">Скидка</div>
+                  </div>
+                </li>
+                <li class="content-list__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-row">
+                      <div class="content-list__item-stars stars">
+                        <ul class="stars__list">
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-list__item-like like">
+                        <a href="#" class="like__btn"></a>
+                      </div>
+                    </div>
+                    <div class="content-list__item-category">
+                      Удилище
+                    </div>
+                    <div class="content-list__item-name">
+                      Matze Koch Rollen
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">13490</div>
+                      <div class="price__currency">р</div>
+                    </div>
+                    <div class="content-list__item-button">
+                      <button class="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="content-list__label label label--hit">
+                    <div class="label__text">Хит</div>
+                  </div>
+                </li>
+                <li class="content-list__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-row">
+                      <div class="content-list__item-stars stars">
+                        <ul class="stars__list">
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                          <li class="stars__item">
+                            <a href="#" class="stars__link"></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-list__item-like like">
+                        <a href="#" class="like__btn"></a>
+                      </div>
+                    </div>
+                    <div class="content-list__item-category">
+                      Удилище
+                    </div>
+                    <div class="content-list__item-name">
+                      Matze Koch Rollen
+                    </div>
+                    <div class="content-list__item-price price">
+                      <div class="price__value">13490</div>
+                      <div class="price__currency">р</div>
+                    </div>
+                    <div class="content-list__item-button">
+                      <button class="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="content-list__label label label--hit">
+                    <div class="label__text">Хит</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="last-news">
+            <div class="last-news__content content-list">
+              <div class="content-list__bar">
+                <div class="content-list__bar-wrapp">
+                  <div class="content-list__title title">
+                    Последние новости
+                  </div>
+                  <a href="#" class="content-list__subtitle">
+                    все новости
+                  </a>
+                </div>
+                <div class="content-list__bar-option bar-option">
+                  <a href="#" class="bar-option__link"></a>
+                  <a
+                    href="#"
+                    class="bar-option__link bar-option__link--next"
+                  ></a>
+                </div>
+              </div>
+              <ul class="last-news__list">
+                <li class="last-news__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/news-1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-category">
+                      Презентация нового продукта
+                    </div>
+                    <div class="content-list__item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Nulla iste repellendus perspiciatis qui officia assumenda
+                      eum voluptas aut esse natus culpa at tenetur consequuntur
+                      repudiandae iure porro, magni nam accusantium!
+                    </div>
+                    <div class="last-news__button">
+                      <button class="button button--news">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="last-news__label label label--date">
+                    <div class="label__text">13.02.2019</div>
+                  </div>
+                </li>
+                <li class="last-news__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/news-1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-category">
+                      Презентация нового продукта
+                    </div>
+                    <div class="content-list__item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Nulla iste repellendus perspiciatis qui officia assumenda
+                      eum voluptas aut esse natus culpa at tenetur consequuntur
+                      repudiandae iure porro, magni nam accusantium!
+                    </div>
+                    <div class="last-news__button">
+                      <button class="button button--news">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="last-news__label label label--date">
+                    <div class="label__text">13.02.2019</div>
+                  </div>
+                </li>
+                <li class="last-news__item">
+                  <div class="content-list__item-picture">
+                    <img
+                      src="img/news-1.png"
+                      alt="Item Picture"
+                      class="content-list__item-picture-icon"
+                    />
+                  </div>
+                  <div class="content-list__item-info">
+                    <div class="content-list__item-category">
+                      Презентация нового продукта
+                    </div>
+                    <div class="content-list__item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Nulla iste repellendus perspiciatis qui officia assumenda
+                      eum voluptas aut esse natus culpa at tenetur consequuntur
+                      repudiandae iure porro, magni nam accusantium!
+                    </div>
+                    <div class="last-news__button">
+                      <button class="button button--news">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="last-news__label label label--date">
+                    <div class="label__text">13.02.2019</div>
+                  </div>
+                </li>
+              </ul>
+              <div class="last-news__distribution distribution">
+                <div class="distribution__text">
+                  Подпишитесь на рассылку и будьте в курсе новостей, акций,
+                  новинок
+                </div>
+                <div class="distribution__row">
+                  <div class="distribution__input">
+                    <input type="text" class="input" placeholder="Ваш email" />
+                  </div>
+                  <div class="distribution__button">
+                    <button class="button">Подписаться</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="about">
+            <div class="container">
+              <div class="about__prepositon">
+                <ul class="about__preposition-list">
+                  <li class="about__preposition-item">
+                    <div class="about__preposition-wrapp">
+                      <div class="about__preposition-row">
+                        <div class="about__preposition-item-title">
+                          Скидка <br> на все лески
+                        </div>
+                        <div class="about__preposition-item-date">
+                          до 15 декабря
+                        </div>
+                      </div>
+                      <div class="about__preposition-row about__preposition-row--al">
+                        <div class="about__preposition-item-bar-option">
+                          <a href="#" class="bar-option__link bar-option__link--next"></a>
+                        </div>
+                        <div class="about__preposition-item-discount">
+                          -30%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="about__preposition-item-pic">
+                      <img src="img/kat.png" alt="Icon" class="about__preposition-item-pic-icon">
+                    </div>
+                  </li>
+                  <li class="about__preposition-item">
+                    <div class="about__preposition-wrapp">
+                      <div class="about__preposition-row">
+                        <div class="about__preposition-item-title">
+                          Скидка <br> на все лески
+                        </div>
+                        <div class="about__preposition-item-date">
+                          до 15 декабря
+                        </div>
+                      </div>
+                      <div class="about__preposition-row">
+                        <div class="about__preposition-item-bar-option">
+                          <a href="#" class="bar-option__link bar-option__link--next"></a>
+                        </div>
+                        <div class="about__preposition-item-discount">
+                          -30%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="about__preposition-item-pic">
+                      <img src="img/kat.png" alt="Icon" class="about__preposition-item-pic-icon">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="about__content-list content-list">
+                <div class="content-list__title title">
+                  О компании
+                </div>
+                <div class="about__wrapp">
+                  <div class="about__col">
+                    <div class="about__text">
+                      По своей сути рыбатекст является альтернативой
+                      традиционному lorem ipsum, который вызывает у некторых
+                      людей недоумение при попытках прочитать рыбу текст. В
+                      отличии от lorem ipsum, текст рыба на русском языке
+                      наполнит любой макет непонятным смыслом и придаст
+                      неповторимый колорит советских времен. По своей сути
+                      рыбатекст является альтернативой традиционному lorem
+                      ipsum, который вызывает у некторых людей недоумение при
+                      попытках прочитать рыбу текст. В отличии от lorem ipsum,
+                      текст рыба на русском языке наполнит любой макет
+                      непонятным смыслом и придаст неповторимый колорит
+                      советских времен. По своей сути рыбатекст является
+                      альтернативой традиционному lorem ipsum, который вызывает
+                      у некторых людей недоумение при попытках прочитать рыбу
+                      текст. В отличии от lorem ipsum, текст рыба на русском
+                      языке наполнит любой макет непонятным смыслом и придаст
+                      неповторимый колорит советских времен. По своей сути
+                      рыбатекст является альтернативой традиционному lorem
+                      ipsum, который вызывает у некторых людей недоумение при
+                      попытках прочитать рыбу текст. В отличии от lorem ipsum,
+                      текст рыба на русском языке наполнит любой макет
+                      непонятным смыслом и придаст неповторимый колорит
+                      советских времен.
+                    </div>
+                  </div>
+                  <div class="about__col">
+                    <div class="about__text">
+                      По своей сути рыбатекст является альтернативой
+                      традиционному lorem ipsum, который вызывает у некторых
+                      людей недоумение при попытках прочитать рыбу текст. В
+                      отличии от lorem ipsum, текст рыба на русском языке
+                      наполнит любой макет непонятным смыслом и придаст
+                      неповторимый колорит советских времен. По своей сути
+                      рыбатекст является альтернативой традиционному lorem
+                      ipsum, который вызывает у некторых людей недоумение при
+                      попытках прочитать рыбу текст. В отличии от lorem ipsum,
+                      текст рыба на русском языке наполнит любой макет
+                      непонятным смыслом и придаст неповторимый колорит
+                      советских времен. По своей сути рыбатекст является
+                      альтернативой традиционному lorem ipsum, который вызывает
+                      у некторых людей недоумение при попытках прочитать рыбу
+                      текст. В отличии от lorem ipsum, текст рыба на русском
+                      языке наполнит любой макет непонятным смыслом и придаст
+                      неповторимый колорит советских времен. По своей сути
+                      рыбатекст является альтернативой традиционному lorem
+                      ipsum, который вызывает у некторых людей недоумение при
+                      попытках прочитать рыбу текст. В отличии от lorem ipsum,
+                      текст рыба на русском языке наполнит любой макет
+                      непонятным смыслом и придаст неповторимый колорит
+                      советских времен.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__column">
+              <div class="footer__logo logo">
+                <a href="#" class="logo__link">LOGOtype</a>
+              </div>
               <div class="footer__text">
-                официальный представитель в России
+                официальный представитель <br />
+                в России
               </div>
               <div class="footer__links">
                 <a href="#" class="footer__link">Скачать каталог 2020</a>
                 <a href="#" class="footer__link">Связатья с нами</a>
               </div>
-           </div>
-           <div class="footer__column">
-             <div class="footer__subcontent">
-               <div class="footer__subtitle">
-                 Компания
-               </div>
-               <ul class="footer__sublist">
-                 <li class="footer__subitem">
-                   <a href="#" class="footer__sublink">
+            </div>
+            <div class="footer__column">
+              <div class="footer__subcontent">
+                <div class="footer__subtitle">
+                  Компания
+                </div>
+                <ul class="footer__sublist">
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
                       о компании
-                   </a>
-                 </li>
-                 <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-               </ul>
-             </div>
-             <div class="footer__subcontent">
-              <div class="footer__subtitle">
-                Компания
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <ul class="footer__sublist">
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
+              <div class="footer__subcontent">
+                <div class="footer__subtitle">
+                  Компания
+                </div>
+                <ul class="footer__sublist">
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__subcontent">
+                <div class="footer__subtitle">
+                  Компания
+                </div>
+                <ul class="footer__sublist">
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__subcontent">
+                <div class="footer__subtitle">
+                  Компания
+                </div>
+                <ul class="footer__sublist">
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                  <li class="footer__subitem">
+                    <a href="#" class="footer__sublink">
+                      о компании
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__row footer__row--jc">
+            <div class="footer__copyright">
+              2010-2019 Ltd. Все права защищены.
+            </div>
+            <div class="footer__socials socials">
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a href="#" class="socials__link socials__link--vk"></a>
                 </li>
-                <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link socials__link--fb"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link socials__link--inst"></a>
+                </li>
               </ul>
             </div>
-            <div class="footer__subcontent">
-              <div class="footer__subtitle">
-                Компания
-              </div>
-              <ul class="footer__sublist">
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-                <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-              </ul>
-            </div>
-            <div class="footer__subcontent">
-              <div class="footer__subtitle">
-                Компания
-              </div>
-              <ul class="footer__sublist">
-                <li class="footer__subitem">
-                  <a href="#" class="footer__sublink">
-                     о компании
-                  </a>
-                </li>
-                <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-               <li class="footer__subitem">
-                 <a href="#" class="footer__sublink">
-                    о компании
-                 </a>
-               </li>
-              </ul>
-            </div>
-           </div>
-         </div>
-         <div class="footer__row">
-           <div class="footer__copyright">
-            2010-2019 Ltd. Все права защищены. 
-           </div>
-           <div class="footer__socials socials">
-             <ul class="socials__list">
-               <li class="socials__item">
-                 <a href="#" class="socials__link">vk</a>
-               </li>
-               <li class="socials__item">
-                <a href="#" class="socials__link">fb</a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link">insta</a>
-              </li>
-             </ul>
-           </div>
-         </div>
-      </div>
-    </footer>
-  </div>
+          </div>
+        </div>
+      </footer>
+    </div>
 
-
-  <script src="js/vendors.min.js"></script>
-  <script src="js/script.min.js"></script>
-</body>
+    <script src="js/vendors.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
 </html>
